@@ -14,9 +14,6 @@
     <string name="registerUser">Register User</string>
     <string name="alreadyHaveAccount">Already have an account? Log in</string>
 
-    <!--MAIN MENU-->
-    <string name="signOut">Sign Out</string>
-    
     <!--LOGIN ACTIVITY-->
     <string name="signIn">Sign In</string>
     <string name="emailLogin">Email</string>
@@ -25,5 +22,10 @@
     <string name="newUser">Don\'t have an account? Register</string>
     <string name="incorrect_data">Incorrect data</string>
 
+    <!--MAIN MENU-->
+    <string name="signOut">Sign Out</string>
+    <string name="welcomeMain">Welcome</string>
+    <string name="namesMain"> -- </string>
+    <string name="emailMain"> -- </string>
 
 </resources>

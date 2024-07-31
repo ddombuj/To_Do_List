@@ -3,7 +3,9 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
 
-
+    <color name="colorPrimaryLight">#06C492</color>
+    <color name="primaryLighter">#05B281</color>
     <color name="colorPrimary">#039f71</color>
+    <color name="primaryDarkered">#028D60</color>
     <color name="colorPrimaryDark">#007a4f</color>
 </resources>
