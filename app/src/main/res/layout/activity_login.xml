@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
@@ -7,4 +8,88 @@
     android:layout_height="match_parent"
     tools:context=".authentication.Login">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:padding="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:text="@string/signIn"
+            android:fontFamily="@font/worksans"
+            android:textSize="25sp"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <!--Animation-->
+        <com.airbnb.lottie.LottieAnimationView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            app:lottie_imageAssetsFolder="assets"
+            app:lottie_fileName="login.json"
+            app:lottie_loop="true"
+            app:lottie_autoPlay="true"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"/>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp">
+
+            <EditText
+                android:id="@+id/emailLogin"
+                android:hint="@string/emailLogin"
+                android:drawableStart="@drawable/ic_email"
+                android:drawablePadding="10dp"
+                android:padding="20dp"
+                android:fontFamily="@font/worksans"
+                android:inputType="textEmailAddress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:passwordToggleEnabled="true"
+            android:layout_marginTop="15dp">
+
+            <EditText
+                android:id="@+id/passwordLogin"
+                android:hint="@string/passwordLogin"
+                android:drawableStart="@drawable/ic_password"
+                android:drawablePadding="10dp"
+                android:padding="20dp"
+                android:paddingEnd="60dp"
+                android:fontFamily="@font/worksans"
+                android:inputType="textPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:id="@+id/bt_login"
+            android:text="@string/bt_login"
+            android:fontFamily="@font/worksans"
+            android:layout_marginTop="10dp"
+            android:textSize="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="60dp" />
+
+        <TextView
+            android:id="@+id/newUser"
+            android:text="@string/newUser"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:fontFamily="@font/worksans"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</RelativeLayout>
