@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "602943471624",
+    "project_id": "agenda-app-e1da1",
+    "storage_bucket": "agenda-app-e1da1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:602943471624:android:c13ff32ba9cd14478851bd",
+        "android_client_info": {
+          "package_name": "com.ddombuj.to_do_list"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDoAIKKS6gWPxRY04uqLF5s0Gg9Nx7SHUs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

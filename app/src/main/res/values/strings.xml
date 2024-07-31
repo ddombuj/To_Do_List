@@ -1,3 +1,17 @@
 <resources>
     <string name="app_name">To Do List</string>
+
+    <!--MAIN ACTIVITY-->
+    <string name="btn_login">Login</string>
+    <string name="btn_register">Register</string>
+
+    <!--ACTIVITY REGISTER-->
+    <string name="createAccount">Create an account</string>
+    <string name="nameEt">Name</string>
+    <string name="emailEt">Email</string>
+    <string name="passwordEt">Password</string>
+    <string name="confirmEt">Confirm Password</string>
+    <string name="registerUser">Register User</string>
+    <string name="alreadyHaveAccount">Already have an account</string>
+
 </resources>
