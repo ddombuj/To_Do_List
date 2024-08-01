@@ -13,6 +13,9 @@
         android:theme="@style/Theme.ToDoList"
         tools:targetApi="31">
         <activity
+            android:name=".addNote.AddNote"
+            android:exported="false" />
+        <activity
             android:name=".MainMenu"
             android:exported="false" />
         <activity

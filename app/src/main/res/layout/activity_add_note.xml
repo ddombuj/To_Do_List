@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".addNote.AddNote">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/uid_user"
+            android:hint="@string/uid_user"
+            android:textSize="18sp"
+            android:fontFamily="@font/worksans"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/user_email"
+            android:hint="@string/user_email"
+            android:textSize="18sp"
+            android:fontFamily="@font/worksans"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/actual_date_time"
+            android:hint="@string/actual_date_time"
+            android:textSize="18sp"
+            android:fontFamily="@font/worksans"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/title"
+            android:hint="@string/Title"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:fontFamily="@font/worksans"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:id="@+id/description"
+            android:hint="@string/Description"
+            android:minHeight="150dp"
+            android:textSize="20sp"
+            android:layout_marginTop="10dp"
+            android:gravity="start"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp">
+
+            <Button
+                android:id="@+id/btn_calendar"
+                android:text="@string/btn_calendar"
+                app:icon="@drawable/ic_calendar"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"/>
+
+            <TextView
+                android:id="@+id/date"
+                android:hint="@string/Date"
+                android:textSize="20sp"
+                android:layout_marginStart="15dp"
+                android:fontFamily="@font/worksans"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <TextView
+            android:id="@+id/state"
+            android:hint="@string/State"
+            android:textSize="20sp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/worksans"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+</ScrollView>

@@ -28,4 +28,14 @@
     <string name="namesMain"> -- </string>
     <string name="emailMain"> -- </string>
 
+    <!--ADD NOTE-->
+    <string name="uid_user">User UID</string>
+    <string name="user_email">User email</string>
+    <string name="actual_date_time">Actual date and time</string>
+    <string name="Title">Title</string>
+    <string name="Description">Desctiption</string>
+    <string name="btn_calendar">Calendar</string>
+    <string name="Date">00/00/0000</string>
+    <string name="State">Not finished</string>
+
 </resources>
